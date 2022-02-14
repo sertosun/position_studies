@@ -1,0 +1,68 @@
+.menubar {
+  background-color: rgb(82, 78, 78);
+  border-radius: 5px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  opacity: 80%;
+}
+
+.nav a {
+  color: rgb(241, 235, 235);
+  text-decoration: none;
+  padding: 0 25px;
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: 4px 2px 14px 2px #000000;
+  margin-right: 15px;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.image {
+  width: 40%;
+  float: left;
+  padding-right: 30px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  background-color: rgb(4, 46, 42);
+  color: white;
+  padding: 15px;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  padding: 0 15px;
+  position: relative;
+}
+
+.fa-whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  color: green;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.in_element {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  height: 30px;
+  align-items: center;
+}
